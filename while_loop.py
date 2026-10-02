@@ -85,12 +85,45 @@
 
 # Number ko reverse karo.
 # Example: 12345 → 54321
+# num = 5678
+# rev = 0
+# while num > 0:
+#     digit = num % 10
+#     rev = rev * 10 + digit
+#     num = num // 10
 
+# print(rev)
 # Check karo ki number palindrome hai ya nahi.
+# num = 121
+# copy = num
+# rev = 0
+# while copy > 0:
+#     digit = copy % 10
+#     rev = rev * 10 + digit
+#     copy = copy // 10
+    
+# if num == rev:
+#     print(f"{num} is palindrome")
+# else:
+#     print(f"{num} is not palindrome")
+
 # Example: 121 → Palindrome
 
 
 # Check karo ki number prime hai ya nahi.
+# num = 23
+# i = 1
+# count = 0
+# while i <= num:
+#     if num % i == 0:
+#         count += 1
+#     i +=1
+    
+# if count ==2:
+#     print(f"{num} is prime number")
+# else:
+#     print(f"{num} is not a prime number")
+
 
 # n terms tak Fibonacci series print karo.
 
