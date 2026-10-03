@@ -127,31 +127,43 @@
 
 # n terms tak Fibonacci series print karo.
 
+# n = int(input("Enter a number : "))
+# a = 0 
+# b = 1
+# i = 1
+# while i <= n:
+#     print(a,end=" ")
+#     c = a + b 
+#     a = b
+#     b = c
+#     i += 1
+    
+    
+
 # User se numbers input lete raho jab tak user 0 enter na kare. End me total sum print karo.
-
+# stop = False
+# sum = 0
+# while stop == False:
+#     n = int(input("Enter a number : "))
+#     sum +=n
+#     if n == 0:
+#         stop = True
+        
+# print(sum)
+     
 # User se numbers input lete raho aur positive aur negative numbers ki count batao. 0 par stop karo.
+# positive_number_count = 0
+# negative_number_count = 0
+# stop = False
+# while stop == False:
+#     num = int(input("Enter a number"))
+#     if num > 0:
+#         positive_number_count +=1
+#     if num < 0:
+#         negative_number_count +=1
+#     if num == 0:
+#         stop = True
 
-# 🔴 Challenge
-# GCD/HCF of two numbers find karo using while.
-
-# Number ka largest digit find karo.
-# Example: 58329 → 9
-
-# Number ka smallest digit find karo.
-
-# Check karo ki number Armstrong number hai ya nahi.
-# Example: 153 → Armstrong
-
-# User ko repeatedly number guess karne do jab tak correct number guess na ho.
-
-# ATM menu banao:
-
-# 1 → Balance
-
-# 2 → Deposit
-
-# 3 → Withdraw
-
-# 4 → Exit
-
-# Program 4 enter hone tak chalta rahe.
+# print(f"Positive numbers {positive_number_count}")
+# print(f"negative numbers {negative_number_count}")
+        
